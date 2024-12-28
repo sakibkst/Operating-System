@@ -1,0 +1,27 @@
+1.mkdir Exercise
+
+2.mkdir Gallery/Photos/vacation -p
+
+3.mkdir A B C
+
+4.cd B
+cat >file1.txt
+
+5.cd ..
+cd Exercise 
+cat >file1.txt
+cat >file2.txt
+cat file1.txt >> file2.txt
+
+6. cat oldfile.txt
+mv oldfile1.txt newfile.txt
+
+7.cd Gallery/Photos
+
+8.cat file3.txt
+cat file4.txt
+cp file3.txt file4.txt Exercise
+
+9.mv Gallery Exercise
+
+10.rm -r A B C Exercise
